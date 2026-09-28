@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/tracesemver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Trace encode/decode helpers for semver payloads in pipelines.",
+  "bin": {
+    "tracesemver": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/tracesemver.git"
+  },
+  "homepage": "https://theworker02.github.io/tracesemver/",
+  "keywords": [
+    "trace",
+    "semver",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
